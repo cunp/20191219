@@ -3,16 +3,12 @@
 
     grid-template-rows: 1fr 500px 4fr;
 
-
+    grid-column-gap: 20px;
 
     border: solid;
 
 }
 
-.box {
-
-    border: solid
-}
 
 .box:nth-child(2) {
     background-color: yellowgreen;
@@ -24,12 +20,24 @@
 
 .box:nth-child(1) {
 
-    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 12px;
     border-color: salmon;
     background-color: #523737;
+    display: flex;
+    justify-content: space-between;
 
 }
 
+
 .fa {
+    color: seashell;
+}
+
+
+
+
+.column:nth-child(2) {
+
+    text-align: center;
     color: seashell;
 }
