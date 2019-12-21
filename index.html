@@ -10,20 +10,31 @@
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       class="css"
     />
+
+    <script type="text/javascript"></script>
+
     <title>Document</title>
   </head>
 
   <body>
-    <div class="Wrapper">
+    <div class="wrapper">
       <div class="box">
         <div class="column">
           <i class="fa fa-fighter-jet"></i>
           <i class="fa fa-wifi"></i>
         </div>
         <div class="column">
-          <span>12:34</span>
+          <span
+            ><script>
+              var date_data = '12-20-13:05';
+              console.log(date_data);
+              var print_data = date_data.split('-');
+              console.log(print_data[0] + ',' + print_data[1] + ',' + print_data[2]);
+              document.write(print_data[2]);
+            </script></span
+          >
         </div>
-        <div>
+        <div class="column">
           <i class="fa fa-moon-o"></i>
           <i class="fa fa-bluetooth-b">100%</i>
           <i class="fa fa-battery-full"></i>

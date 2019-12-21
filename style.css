@@ -1,11 +1,12 @@
-.Wrapper {
+.wrapper {
     display: grid;
 
-    grid-template-rows: 1fr 500px 4fr;
+    grid-template-rows: 50px 500px 4fr;
 
     grid-column-gap: 20px;
 
     border: solid;
+
 
 }
 
